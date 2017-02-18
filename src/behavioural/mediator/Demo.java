@@ -7,14 +7,14 @@ import behavioural.mediator.model.*;
  * Examples: java.util.Timer, java.lang.reflect.Method#invoke()
  *
  * Pitfalls:
- * deity object; limits subclassing; over or with Command
+ * deity object; limits subclassing; over or with command
  *
  * Contrast:
  * Mediator: defines interaction; object decoupling; more specific;
  * Observer: one to many; object decoupling; more generic
  *
  * Summary:
- * Loose coupling, simplified communication. mediator complexity, use with Command
+ * Loose coupling, simplified communication. mediator complexity, use with command
  */
 public class Demo {
 

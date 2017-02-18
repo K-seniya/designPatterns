@@ -14,10 +14,10 @@ import behavioural.chainOfResponsabilities.model.*;
  * Chain length/performance issues
  *
  * Contrast:
- * Chain of responsibility: handler is unique, successor, can utilize the Command
- * Command: also unique, encapsulates function, reversiable or trackable in nature
+ * Chain of responsibility: handler is unique, successor, can utilize the command
+ * command: also unique, encapsulates function, reversiable or trackable in nature
  *
- * We usually called a Command because we know it can handle it. But the chain just send it on the chain just assuming
+ * We usually called a command because we know it can handle it. But the chain just send it on the chain just assuming
  * that somebody along the way will handle it
  */
 

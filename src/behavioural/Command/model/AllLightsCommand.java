@@ -1,4 +1,4 @@
-package behavioural.Command.model;
+package behavioural.command.model;
 
 import java.util.ArrayList;
 import java.util.List;

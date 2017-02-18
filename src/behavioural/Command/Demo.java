@@ -1,6 +1,6 @@
-package behavioural.Command;
+package behavioural.command;
 
-import behavioural.Command.model.*;
+import behavioural.command.model.*;
 
 import java.util.ArrayList;
 
@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Prototype for copies
  *
  * Contrast:
- * Command: object per command, class contains 'what', encapsulates actions
+ * command: object per command, class contains 'what', encapsulates actions
  * Strategy: object per strategy, class contains 'how', encapsulates algorithm
  *
  * encapsulates each request as an object
@@ -29,7 +29,7 @@ public class Demo {
         Light kitchenLight = new Light();
         Switch lightSwitch = new Switch();
 
-//        Command onCommand = new OnCommand(bedroomLight);
+//        command onCommand = new OnCommand(bedroomLight);
 //        lightSwitch.storeAndExecute(onCommand);
 
         Command toggleCommand = new ToggleCommand(bedroomLight);

@@ -1,4 +1,4 @@
-package behavioural.Command.model;
+package behavioural.command.model;
 
 /**
  * receiver
