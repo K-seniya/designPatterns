@@ -12,6 +12,7 @@ import java.util.ArrayList;
  * Make use of Memento
  * Prototype for copies
  *
+ *
  * Contrast:
  * command: object per command, class contains 'what', encapsulates actions
  * Strategy: object per strategy, class contains 'how', encapsulates algorithm
